@@ -9,11 +9,12 @@ const {
 } = require('../../controllers/user-controller');
 const { update } = require('../../models/Thought');
 
+// 'api/users'
 router
     .route('/')
     .get(getAllUser)
     .post(createUser);
-
+// "api/users/:id"
 router
     .route('/:id')
     .get(getUserById)

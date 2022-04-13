@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const apiRoutes = require('./api');
 
-router.unsubscribe('/api', apiRoutes);
+router.use('/api', apiRoutes);
 
 // this is not doing anything now, but will be useful for future scaling
 router.use((req, res) => {
