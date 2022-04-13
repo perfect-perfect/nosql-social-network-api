@@ -14,7 +14,7 @@ The back-end API for social network where you can create a user account, post yo
 We use Node, Express, MondoDB, Mongoose, and Insomina to create a social network. To add, post, update or dlete any of them elements, you must use Insomnia in conjunctions with the routes provided.
 
 # Video
-[Link] (https://drive.google.com/file/d/1mk8bK5ELyNxdWElbLy4G0kncXtvbP9K5/view)
+[Link](https://drive.google.com/file/d/1mk8bK5ELyNxdWElbLy4G0kncXtvbP9K5/view)
 
 ## Questions
 You can reach me through GitHub or E-mail
